@@ -1,4 +1,4 @@
-<script>
+
   (function blockNetlifyBadge() {
     // --- 消したい要素の条件 ---
     const SELECTORS = [
@@ -93,4 +93,4 @@
     // --- 念のため定期チェック（保険） ---
     setInterval(() => removeBadges(), 1500);
   })();
-</script>
+
